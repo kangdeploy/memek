@@ -198,9 +198,9 @@ function randomNomor(min, max = null) {
    let A = "┟"
    let B = "┞"
    let stick = "╿"
-   let tayime = "🕒 *Time:*"
-   let runtz = "⏱️*Runtime:*"
-   let taipye = "💻 *Type:*"
+   let tayime = " *Time:*"
+   let runtz = "*Runtime:*"
+   let taipye = " *Type:*"
    let borderlist = "╭╾───────────────╼╮"
    let borderlistend = "╰╾───────────────╼╯"
    let opener = "╭─────────────────╮"
@@ -230,7 +230,7 @@ ${left}${borderlist}
 ${left}${left} LIST MENU      
 ${left}${borderlistend}
 
- ️  *Downloader menu*
+ ️  _Downloader menu_
 ▣ ${prefix}play _query_
 ▣ ${prefix}lagu _query_
 ▣ ${prefix}musik _query_
@@ -245,7 +245,7 @@ ${left}${borderlistend}
 ▣ ${prefix}youtubemp3 _link_
 ▣ ${prefix}mediafire _link_
 
-   *️Convert menu*
+   _️Convert menu_
 ▣ ${prefix}toimg
 ▣ ${prefix}tomp4
 ▣ ${prefix}tomp3
@@ -253,7 +253,7 @@ ${left}${borderlistend}
 ▣ ${prefix}unduh
 ▣ ${prefix}sticker
 
-   *Goup menu*
+   _Goup menu_
 ▣ ${prefix}add
 ▣ ${prefix}kick
 ▣ ${prefix}promote
@@ -266,7 +266,7 @@ ${left}${borderlistend}
 ▣ ${prefix}group <open/close>
 ▣ ${prefix}hidetag
 
- ️  *Rpg menu*
+ ️  _Rpg menu_
 ▣ ${prefix}berburu
 ▣ ${prefix}mancing
 ▣ ${prefix}menambang
@@ -276,7 +276,7 @@ ${left}${borderlistend}
 ▣ ${prefix}inventori
 ▣ ${prefix}leaderboard
 
-   *Other menu*
+   _Other menu_
 ▣ ${prefix}detiknews
 ▣ ${prefix}wiki
 ▣ ${prefix}wallpaperaccess
@@ -300,19 +300,19 @@ ${left}${borderlistend}
 ▣ ${prefix}artinama
 ▣ ${prefix}kisahnabi
 
-   *Manga menu*
+   _Manga menu_
 ▣ ${prefix}manga
 ▣ ${prefix}chara
 ▣ ${prefix}otakudesu
 
-   *Random Video*
+   _Random Video_
 ▣ ${prefix}asupan
 ▣ ${prefix}storywa
 
-️   *Stalker*
+️   _Stalker_
 ▣ ${prefix}igstalk
 
-   *Tools menu*
+   _Tools menu_
 ▣ ${prefix}tinyurl
 ▣ ${prefix}cuttly
 ▣ ${prefix}ceklokasi
@@ -324,7 +324,7 @@ ${left}${borderlistend}
 ▣ ${prefix}kubik
 ▣ ${prefix}perkalian
 
-   *Game/Fun*
+   _Game/Fun_
 ▣ ${prefix}tebakgambar
 ▣ ${prefix}kuismath
 ▣ ${prefix}tebakkimia
@@ -337,11 +337,11 @@ ${left}${borderlistend}
 ▣ ${prefix}tebakanime
 ▣ ${prefix}tebakbendera
 
-   *Mutual/Cariteman*
+   _Mutual/Cariteman_
 ▣ ${prefix}cariteman
 ▣ ${prefix}next
 
-   *Owner*
+   _Owner_
 ▣ ${prefix}broadcast
 ▣ ${prefix}resetlimit
 ▣ >
@@ -760,7 +760,7 @@ reply("Jawaban Salah!")
        }    
     if (chatmessage.includes(`kontol`) || chatmessage.includes(`Kontol`)){
        sock.sendMessage(from, 
-        { text: '🗿' }, 
+        { text: 'Iya' }, 
         { quoted : m })  
 
        } 
@@ -3098,7 +3098,7 @@ if (q.includes('--help')) return reply(examlink)
       axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 .then((a) => {
    
-      sock.sendMessage(from, { video: { url: dl_link }, caption: "This is the result\nHope you are happy with our service😊" }, { quoted: m })
+      sock.sendMessage(from, { video: { url: dl_link }, caption: "NIH!" }, { quoted: m })
       })
      
 })
@@ -3201,7 +3201,7 @@ if (q.includes('--help')) return reply(examplyme)
     
       m.reply(
         from, 
-        `Reply gambar/video\n  [ *BATAS MAKSIMUM 10 DETIK*❗ ]\nDengan caption : ${prefix + order}`, 
+        `Reply gambar/video\n  [ Gagal coba ulang ]\nDengan caption : ${prefix + order}`, 
         { 
          quoted : m 
          } 
@@ -3377,7 +3377,7 @@ if (q.includes('--help')) return reply(examlink)
 } )
    console.log(musim_rambutan)
    const musim_duren_v = musim_rambutan.result.nowatermark
-    sock.sendMessage(from, { video: { url: musim_duren_v }, caption: "This is the result\nHope you are happy with our service😊" }, { quoted: m })
+    sock.sendMessage(from, { video: { url: musim_duren_v }, caption: "NIH!" }, { quoted: m })
    }
   break
   case 'afk':{
